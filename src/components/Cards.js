@@ -40,7 +40,7 @@ const Cards = ({taskObj, index, deleteTask, updateListArray}) => {
     }
 
     return (
-        <div className = "card-wrapper mr-5">
+        <div className = "card-wrapper mr-5"style={{marginRight : "20px"}}>
             <div className = "card-top" style={{"background-color": colors[index%5].primaryColor}}></div>
             <div className = "task-holder">
                 <span className = "card-header" style={{"background-color": colors[index%5].secondaryColor, "border-radius": "10px"}}>{taskObj.Name}</span>

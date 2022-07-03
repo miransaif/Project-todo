@@ -24,6 +24,8 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
         taskObj["Name"] = taskName
         taskObj["Description"] = description
         save(taskObj)
+        setTaskName("")
+        setDescription("")
 
     }
 
